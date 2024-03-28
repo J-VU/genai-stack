@@ -31,7 +31,7 @@ MacOS and Linux users can use any LLM that's available via Ollama. Check the "ta
 All platforms can use GPT-3.5-turbo and GPT-4 (bring your own API keys for OpenAI models).
 
 **MacOS**
-Install [Ollama](https://ollama.ai) on MacOS and start it before running `docker compose up` using `ollama serve` in a separate terminal.
+Install [Ollama](https://ollama.ai) on MacOS and start it using `ollama serve` before running `docker-compose -f mac_docker-compose.yml up` in a separate terminal.
 
 **Linux**
 No need to install Ollama manually, it will run in a container as
